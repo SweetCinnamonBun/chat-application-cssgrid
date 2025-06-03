@@ -1,5 +1,6 @@
 import "./App.css"
 import { IoTrashOutline } from "react-icons/io5";
+import { GrAttachment } from "react-icons/gr";
 
 function App() {
   
@@ -24,8 +25,9 @@ function App() {
           <div id="chat-message-list">
             This is the chat message list
           </div>
-          <div id="chat-form" className="bg-[#eee]">
-            This is the chat form
+          <div id="chat-form" className="grid grid-cols-[32px_1fr] grid-rows-[51px] bg-[#eee] pl-11 pr-6 content-center items-center gap-4">
+            <GrAttachment className="w-full h-full text-blue-primary" />
+            <input type="text" placeholder="type a message" className="outline-0 p-3 border border-[#330] rounded-md text-md bg-white"/>
           </div>
         </div>
      </main>
