@@ -1,0 +1,34 @@
+#chat-container {
+  display: grid;
+  grid:
+      "search-container chat-title" 71px
+      "conversation-list chat-message-list" 1fr
+      "new-message-container chat-form" 78px
+      / 275px 1fr;
+}
+
+#search-container {
+  grid-area: search-container;
+}
+
+#conversation-list {
+  grid-area: conversation-list;
+}
+
+#new-message-container {
+  grid-area: new-message-container
+}
+
+
+#chat-title {
+  grid-area: chat-title;
+}
+
+#chat-message-list {
+  grid-area: chat-message-list;
+}
+
+#chat-form {
+  grid-area: chat-form;
+}
+
